@@ -11,6 +11,10 @@
 |
 */
 
-$app->get('/', function () use ($app) {
+$app->get('/', 'HomeController@getIndex');
+$app->get('/footbath', 'HomeController@getFootbath');
+
+/*$app->get('/', function () use ($app) {
     return $app->welcome();
 });
+*/
