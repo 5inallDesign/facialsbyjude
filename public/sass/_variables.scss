@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Centabel Book';
+    src: url('../fonts/Centabel-Book.eot');
+    src: url('../fonts/Centabel-Book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Centabel-Book.woff') format('woff'),
+         url('../fonts/Centabel-Book.ttf') format('truetype'),
+         url('../fonts/Centabel-Book.svg#Centabel Book') format('svg');
+}
+@font-face {
+    font-family: 'Liberation Sans';
+    src: url('../fonts/liberationsans-regular-webfont.eot');
+    src: url('../fonts/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationsans-regular-webfont.woff') format('woff'),
+         url('../fonts/liberationsans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/liberationsans-regular-webfont.svg#Aileron') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Liberation Sans';
+    src: url('../fonts/liberationsans-italic-webfont.eot');
+    src: url('../fonts/liberationsans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationsans-italic-webfont.woff') format('woff'),
+         url('../fonts/liberationsans-italic-webfont.ttf') format('truetype'),
+         url('../fonts/liberationsans-italic-webfont.svg#Aileron') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Liberation Sans';
+    src: url('../fonts/liberationsans-bold-webfont.eot');
+    src: url('../fonts/liberationsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationsans-bold-webfont.woff') format('woff'),
+         url('../fonts/liberationsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/liberationsans-bold-webfont.svg#aileronthin') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Liberation Sans';
+    src: url('../fonts/liberationsans-bolditalic-webfont.eot');
+    src: url('../fonts/liberationsans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liberationsans-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/liberationsans-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/liberationsans-bolditalic-webfont.svg#Aileron') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Colors */
+$black: #252525;
+$magenta: #8a175a;
+$red: #990033;
+$darkred: #6f0229;
+$green: #959e16;
+
+/* Font Weights */
+$light: 300;
+$regular: 400;
+$bold: 500;
