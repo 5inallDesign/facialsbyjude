@@ -1,18 +1,63 @@
 @extends('home.templates.master', array('var1'=>'', 'var2'=>''))
 @section('body')
 <h1>You'll Love the Facial - You'll Love the Price!</h1>
-<address class="address">
-	<p>Downtown Salon, 40 S. Washington, Oxford, MI</p>
-</address>
+<div itemscope itemtype="http://schema.org/LocalBusiness">
+	<span itemprop="name">Facials by Jude</span><br>
+	<address class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		Downtown Salon, <span itemprop="streetAddress">40 S. Washington</span>,
+		<span itemprop="addressLocality">Oxford</span>,
+		<span itemprop="addressRegion">MI</span><br>
+		<span itemprop="telephone">248-736-2343</span> direct
+	</address>
+</div>
 
 <p>Professional Facials and Waxing</p>
 
 <div id="info">
-  <p><strong>Wednesday / Thursday / Friday</strong></p>
-  <p><strong>Saturday</strong> (By appointment only)</p>
-  <p><small>Flexible Hours – Call for Details</small></p>
-  <p><small><strong>248-736-2343 direct</strong></small></p>
+	<p><strong>Wednesday / Friday / Saturday</strong><br class="visible-xs-block">
+		<small>Flexible Hours – Call for Details</small></p>
 </div>
+
+<div class="row featured-services">
+	<div class="col-md-6 galvanic-treatment">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="{{url('')}}/img/galvanic-treatment-home-page.jpg" alt="Galvanic Treatment" class="img-responsive">
+			</div>
+			<div class="col-sm-8">
+				<h2>Revolutionary Galvanic Facial Treatment</h2>
+				<p>This treatment is perfect for everyone whose skin is suffering from the effects of dehydration and congestion. Things that aggravate these conditions are aging skin, stress, pollution, smoking or poor diet.<br>
+					<a href="#">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 detoxifying-footbath">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="{{url('/')}}/img/detoxifying-footbath-home-page.jpg" alt="Ionic Detox Footbath" class="img-responsive">
+			</div>
+			<div class="col-sm-8">
+				<h2>Aqua Chi Ionic Foot Bath</h2>
+				<p>It enhances your body's ability to detoxify &amp; heal. It balances energy pathways within the body. the hydro-stimulation spa is a non-invasive, water based energy system designed to increase energy levels in your system.<br>
+					<a href="{{url('/')}}/footbath">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="col-md-6 ultrasonic-facial-treatment">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="http://placehold.it/250x200" alt="Ionic Detox Footbath" class="img-responsive">
+			</div>
+			<div class="col-sm-8">
+				<h2>Ultrasonic Facial Treatment</h2>
+				<p>This treatment pushes away impurities and dead skin cells. Ultrasonic waves and a special misting spray work together to cleanse skin pores, clear up complexions and prepare the skin for further aesthetic treatments and topical applications.<br>
+					<a href="{{url('/')}}/facials/ultrasonic-facial-treatment">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div id="content">
 	
     <p><strong>Gift Certificates Available</strong></p>
@@ -24,7 +69,7 @@
 
   	<div class="row">
   		<div class="col-sm-3 col-sm-offset-1 margin-bottom-15">
-  			<a href="http://www.facebook.com/pages/Facials-by-Jude/120751807964979" class="facebook-badge"><i class="fa fa-facebook"></i> Find Us on Facebook</a>
+  			<a href="http://www.facebook.com/pages/Facials-by-Jude/120751807964979" class="facebook-badge" target="_blank"><i class="fa fa-facebook"></i> Find Us on Facebook</a>
   		</div>
   		<div class="col-sm-4 text-center margin-bottom-15">
   			<img src="{{url('/')}}/img/chamber-logo.gif" width="150" height="148" alt="Oxford, Michigan Chamber of Commerce" />

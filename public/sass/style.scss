@@ -31,11 +31,11 @@ body {
 		background-position: center bottom;
 	}
 }
-h1 {
+h1, .h1, h3, .h3 {
 	font-family: 'Centabel Book', 'Times New Roman', serif;
 	color: $magenta;
 }
-h2 {
+h2, .h2 {
 	font-family: 'Centabel Book', 'Times New Roman', serif;
 	color: $green;
 }
@@ -111,13 +111,18 @@ nav.navbar {
 	}
 	a {
 		color: #FCF;
+		cursor: pointer;
 		@media (min-width: $screen-md-min) {
-			font-size: 16px;
+			font-size: 18px;
 		}
 		&:hover {
 			background-color: #FCF;
-			color: #8a175a;
+			color: $magenta;
 		}
+	}
+	li.active a {
+		background-color: #FCF;
+		color: $magenta;
 	}
 	li.dropdown {
 		position: static;
@@ -141,7 +146,12 @@ nav.navbar {
 		> div {
 			max-width: 1000px;
 			margin: 0 auto;
-			padding: 10px 0;
+			@media (min-width: $screen-sm-min) {
+				padding: 10px 0;
+			}
+			> div {
+				margin-bottom: 10px;
+			}
 		}
 		a {
 			text-decoration: none;
@@ -167,7 +177,17 @@ nav.navbar {
     				color: $darkred;
     			}
     			@media (min-width: $screen-sm-min) {
-    				padding: 3px 5px;
+    				padding: 3px 0;
+    				&:before {
+    					content: "\f105";
+    					display: inline-block;
+					    font: normal normal normal 14px/1 FontAwesome;
+					    font-size: inherit;
+					    text-rendering: auto;
+					    -webkit-font-smoothing: antialiased;
+					    -moz-osx-font-smoothing: grayscale;
+					    margin-right: 5px;
+    				}
     			}
     		}
 		}
@@ -185,7 +205,7 @@ nav.navbar {
 		}
 	}
 	.title-link {
-		font-weight: bold;
+		/*font-weight: bold;*/
 		width: 100%;
 		display: block;
 		padding: 10px 15px 0 25px;
@@ -211,6 +231,7 @@ nav.navbar {
 	padding: 15px;
 	margin: 0 15px;
 	background-color: rgba(255,255,255,0.75);
+	min-height: 300px;
 	@media (min-width: $screen-sm-min) {
 		padding: 0 15px 0 250px;
 		margin: 15px auto;
@@ -232,6 +253,35 @@ footer.footer {
 }
 
 /* Home Page */
+.featured-services {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	h2 {
+		font-size: 18px;
+		@media (min-width: $screen-sm-min) {
+			margin-top: 0;
+		}
+	}
+	>.col-md-6 {
+		&:nth-child(1) {
+			margin-bottom: 10px;
+		}
+		&:nth-child(2) {
+			@media (min-width: $screen-md-min) {
+				border-left: 1px solid #CCC;
+			}
+		}
+		.col-sm-8 {
+			@media (min-width: $screen-sm-min) {
+				padding-left: 0;
+			}
+		}
+	}
+	img {
+		border: 1px solid $magenta;
+	}
+	
+}
 .facebook-badge {
 	display: block;
 	border: 2px solid #0e1f5b;
@@ -268,6 +318,12 @@ footer.footer {
 }
 
 /* Common Styles */
+.margin-bottom-0 {
+	margin-bottom: 0;
+}
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
 .margin-bottom-15 {
 	margin-bottom: 15px;
 }
