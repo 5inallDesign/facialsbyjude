@@ -1,12 +1,11 @@
 @extends('home.templates.master', array('var1'=>'', 'var2'=>''))
 @section('body')
 
-<h1>Look and Feel Great Inside and Out!!</h1>
+<h1>Look and Feel Great Inside and Out with an Ionic Detox Footbath!!</h1>
 
 <p>The Ion Energy Charged Foot Bath will Help You Feel Young Again!</p>
 
-
-<p><strong>$30.00 per visit – Pkg of 6 $150.00 (Save $30.00)</strong></p>
+<p><strong>$30.00 per visit &mdash; Package of 6 for $150.00 (Save $30.00)</strong></p>
 
 <h2>The 10 reasons for using the Ionic Cleanse Detox System for YOUR BODY!</h2>
 <ol>

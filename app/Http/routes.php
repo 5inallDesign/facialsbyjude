@@ -12,7 +12,14 @@
 */
 
 $app->get('/', 'HomeController@getIndex');
+$app->get('/facials', 'HomeController@getFacials');
+$app->get('/facials/ultrasonic-facial-treatment', 'HomeController@getUltrasonicFacialTreatment');
+$app->get('/galvanic-treatment', 'HomeController@getGalvanicTreatment');
+$app->get('/glycolic-peels', 'HomeController@getGlycolicPeels');
 $app->get('/footbath', 'HomeController@getFootbath');
+$app->get('/footbath/why', 'HomeController@getFootbath2');
+$app->get('/footbath/symptoms', 'HomeController@getFootbath3');
+$app->get('/neriumad', 'HomeController@getNeriumad');
 
 /*$app->get('/', function () use ($app) {
     return $app->welcome();
