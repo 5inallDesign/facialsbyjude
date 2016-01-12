@@ -3,7 +3,8 @@
 
 <h1>NeriumAD</h1>
 
-<img class="pull-right product-img" src="{{url('/')}}/img/neriumad.jpg" alt="NeriumAD">
+<img class="product-img img-responsive" src="{{url('/')}}/img/neriumad.jpg" alt="NeriumAD">
+<div class="clearfix visible-xs-block"></div>
 
 <h2>Finally, An Anti Aging Product That Really Works!</h2>
 
@@ -16,7 +17,7 @@
     <li>The average NeriumAD clinical trial participant experienced a 30% reduction in the appearance of wrinkles and/or discoloration over the 30-day period.</li>
 </ul>
 
-<p><a href="flyer-nerium.pdf">Download the PDF</a></p>
+<p><a href="flyer-nerium.pdf"><i class="fa fa-file-pdf-o"></i> Download the PDF</a></p>
 <p><a href="http://www.facials.neriumproducts.com">Visit the website</a></p>
 
 @stop

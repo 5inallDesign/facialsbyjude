@@ -83,4 +83,22 @@ class HomeController extends Controller
         $vw->active_page = 'neriumad';
         return $vw;
     }
+
+    public function getTestimonials()
+    {
+        $vw = view('home.testimonials');
+        $vw->title = "Testimonials | Facials by Jude";
+        $vw->description = "See what people are saying about Facials by Jude";
+        $vw->active_page = 'testimonials';
+        return $vw;
+    }
+
+    public function getInTheMedia()
+    {
+        $vw = view('home.media');
+        $vw->title = "In the Media | Facials by Jude";
+        $vw->description = "Check out what's been said about Facials by Jude";
+        $vw->active_page = 'media';
+        return $vw;
+    }
 }

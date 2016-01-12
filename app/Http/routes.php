@@ -20,6 +20,8 @@ $app->get('/footbath', 'HomeController@getFootbath');
 $app->get('/footbath/why', 'HomeController@getFootbath2');
 $app->get('/footbath/symptoms', 'HomeController@getFootbath3');
 $app->get('/neriumad', 'HomeController@getNeriumad');
+$app->get('/testimonials', 'HomeController@getTestimonials');
+$app->get('/in-the-media', 'HomeController@getInTheMedia');
 
 /*$app->get('/', function () use ($app) {
     return $app->welcome();

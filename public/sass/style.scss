@@ -317,13 +317,31 @@ footer.footer {
 	}
 }
 
+/* Nerium AD */
+.product-img {
+	border: 2px solid $magenta;
+	margin: 0 auto;
+	max-width: 75px;
+	@media (min-width: $screen-sm-min) {
+		max-width: 195px;
+		margin-left: 15px;
+		float: right;
+	}
+}
+
 /* Common Styles */
 .margin-bottom-0 {
 	margin-bottom: 0;
+}
+.margin-top-0 {
+	margin-top: 0;
 }
 .margin-bottom-10 {
 	margin-bottom: 10px;
 }
 .margin-bottom-15 {
 	margin-bottom: 15px;
+}
+.img-border {
+	border: 2px solid $magenta;
 }

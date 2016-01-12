@@ -34,7 +34,7 @@
 	<div class="col-md-6 detoxifying-footbath">
 		<div class="row">
 			<div class="col-sm-4">
-				<img src="{{url('/')}}/img/detoxifying-footbath-home-page.jpg" alt="Ionic Detox Footbath" class="img-responsive">
+				<img src="{{url('/')}}/img/detoxifying-footbath-home-page.jpg" alt="Aqua Chi Ionic Foot Bath" class="img-responsive">
 			</div>
 			<div class="col-sm-8">
 				<h2>Aqua Chi Ionic Foot Bath</h2>
@@ -47,7 +47,7 @@
 	<div class="col-md-6 ultrasonic-facial-treatment">
 		<div class="row">
 			<div class="col-sm-4">
-				<img src="http://placehold.it/250x200" alt="Ionic Detox Footbath" class="img-responsive">
+				<img src="http://placehold.it/250x200" alt="Ultrasonic Facial Treatment" class="img-responsive">
 			</div>
 			<div class="col-sm-8">
 				<h2>Ultrasonic Facial Treatment</h2>
