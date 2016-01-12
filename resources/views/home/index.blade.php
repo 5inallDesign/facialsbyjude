@@ -27,7 +27,7 @@
 			<div class="col-sm-8">
 				<h2>Revolutionary Galvanic Facial Treatment</h2>
 				<p>This treatment is perfect for everyone whose skin is suffering from the effects of dehydration and congestion. Things that aggravate these conditions are aging skin, stress, pollution, smoking or poor diet.<br>
-					<a href="#">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
+					<a href="{{url('/')}}/galvanic-treatment">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
 			</div>
 		</div>
 	</div>
