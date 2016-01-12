@@ -57,8 +57,8 @@
                     </ul>
                 </li>
                 <li class="{{(isset($active_page)) && ($active_page == 'neriumad')?'active':''}}"><a href="{{url('/')}}/neriumad">NeriumAD</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">In the Media</a></li>
+                <li class="{{(isset($active_page)) && ($active_page == 'testimonials')?'active':''}}"><a href="{{url('/')}}/testimonials">Testimonials</a></li>
+                <li class="{{(isset($active_page)) && ($active_page == 'media')?'active':''}}"><a href="{{url('/')}}/in-the-media">In the Media</a></li>
     		</ul>
       	</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
