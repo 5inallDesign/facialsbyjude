@@ -47,7 +47,7 @@
 	<div class="col-md-6 ultrasonic-facial-treatment">
 		<div class="row">
 			<div class="col-sm-4">
-				<img src="http://placehold.it/250x200" alt="Ultrasonic Facial Treatment" class="img-responsive">
+				<img src="{{url('/')}}/img/ultrasonic-facial-treatment.jpg" alt="Ultrasonic Facial Treatment" class="img-responsive">
 			</div>
 			<div class="col-sm-8">
 				<h2>Ultrasonic Facial Treatment</h2>

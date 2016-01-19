@@ -4,7 +4,7 @@
 
 <div class="row">
 	<div class="col-sm-3">
-		<img src="http://placehold.it/250x200" alt="Ultrasonic Facial Treatment" class="img-responsive margin-bottom-15 img-border">
+		<img src="{{url('/')}}/img/ultrasonic-facial-treatment.jpg" alt="Ultrasonic Facial Treatment" class="img-responsive margin-bottom-15 img-border">
 	</div>
 	<div class="col-sm-9">
 
