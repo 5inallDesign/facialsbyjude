@@ -260,13 +260,15 @@ nav.navbar {
 	margin: 0 15px;
 	background-color: rgba(255,255,255,0.75);
 	min-height: 300px;
+	overflow: hidden;
 	@media (min-width: $screen-sm-min) {
 		padding: 0 15px 0 250px;
-		margin: 15px auto;
+		margin: 0 auto 15px auto;
 	}
 	@media (min-width: 1000px) {
 		max-width: 1000px;
 		padding-left: 0;
+		overflow: visible;
 	}
 }
 
@@ -291,8 +293,9 @@ footer.footer {
 		}
 	}
 	>.col-md-6 {
-		&:nth-child(1) {
-			margin-bottom: 10px;
+		margin-bottom: 10px;
+		&:last-child {
+			margin-bottom: 0;
 		}
 		&:nth-child(2) {
 			@media (min-width: $screen-md-min) {
