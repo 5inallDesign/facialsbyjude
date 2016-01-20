@@ -1,4 +1,11 @@
 @extends('home.templates.master', array('var1'=>'', 'var2'=>''))
+@section('breadcrumbs')
+<ol class="breadcrumb">
+  <li><a href="{{url('/')}}">Home</a></li>
+  <li><a href="{{url('/')}}/footbath">Detoxifying Footbath</a></li>
+  <li class="active">Why a Detox Footbath?</li>
+</ol>
+@stop
 @section('body')
 
 <h1>Why Should I Treat My Body to an Ionic Detox Footbath?</h1>

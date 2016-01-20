@@ -8,6 +8,7 @@ sftp-config.json
 # Sass #
 ###########
 /public/sass/.sass-cache
+/public/sass/.sass-cache/*
 **/.sass-cache/*
 **.sass-cache**
 .sass-cache

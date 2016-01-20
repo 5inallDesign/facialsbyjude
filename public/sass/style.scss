@@ -16,7 +16,6 @@ Author: Matt Crandell
 @import "mixins";
 
 /* General Styles */
-
 body {
 	font-family: 'Liberation Sans', Arial, serif;
 	background-image: url(../img/background.jpg);
@@ -44,6 +43,18 @@ a {
 	&:hover {
 		color: $darkred;
 		text-decoration: none;
+	}
+}
+hr {
+	border-top: 1px solid $pink;
+}
+.btn-magenta {
+	color: #FFF;
+	background-color: $magenta;
+	border-color: $darkred;
+	&:hover {
+		color: #FFF;
+		background-color: $red;
 	}
 }
 
@@ -84,7 +95,7 @@ nav.navbar {
 	border-radius: 0;
 	margin-bottom: 0;
 	@media (min-width: $screen-sm-min) {
-		margin-bottom: 15px;
+		/*margin-bottom: 15px;*/
 	}
 	.navbar-toggle {
 		border-radius: 2px;
@@ -102,7 +113,7 @@ nav.navbar {
 	.navbar-collapse {
 		margin: 0 auto;
 		@media (min-width: $screen-sm-min) {
-			padding-left: 250px;
+			padding-left: 225px;
 		}
 		@media (min-width: 1000px) {
 			max-width: 1000px;
@@ -223,6 +234,23 @@ nav.navbar {
 		img {
 			margin-top: 5px;
 		}
+	}
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+	border-radius: 0;
+	background: none;
+	border-bottom: 1px solid $pink;
+	display: none;
+	@media (min-width: $screen-sm-min) {
+		padding-left: 250px;
+		margin: 0 auto;
+		display: block;
+	}
+	@media (min-width: 1000px) {
+		max-width: 1000px;
+		padding-left: 15px;
 	}
 }
 

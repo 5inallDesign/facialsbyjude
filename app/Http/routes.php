@@ -14,6 +14,7 @@
 $app->get('/', 'HomeController@getIndex');
 $app->get('/facials', 'HomeController@getFacials');
 $app->get('/facials/ultrasonic-facial-treatment', 'HomeController@getUltrasonicFacialTreatment');
+$app->get('/facials/ultrasonic-facial-treatment/benefits', 'HomeController@getUltrasonicFacialTreatment2');
 $app->get('/galvanic-treatment', 'HomeController@getGalvanicTreatment');
 $app->get('/glycolic-peels', 'HomeController@getGlycolicPeels');
 $app->get('/footbath', 'HomeController@getFootbath');

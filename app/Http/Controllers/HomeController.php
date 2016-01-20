@@ -30,6 +30,15 @@ class HomeController extends Controller
         return $vw;
     }
 
+    public function getUltrasonicFacialTreatment2()
+    {
+        $vw = view('home.ultrasonic-facial-treatment2');
+        $vw->title = "Benefits of a Ultrasonic Facial Treatment | Facials by Jude";
+        $vw->description = "Professional Estheticians perform ultrasonic facials to thoroughly cleanse the skin.";
+        $vw->active_page = 'services';
+        return $vw;
+    }
+
     public function getGalvanicTreatment()
     {
     	$vw = view('home.galvanic-treatment');

@@ -22,7 +22,7 @@
     <body>
 
     @include('home.templates.nav')
-
+    @yield('breadcrumbs')
     <div class="content">
     @yield('body')
     </div>
