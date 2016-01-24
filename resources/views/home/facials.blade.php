@@ -76,7 +76,10 @@
 			    </tr>
 		    </thead>
 		    <tbody>
-			    <tr>
+		    	<tr>
+		    		<td>Customized Eyebrow Arch</td>
+		    		<td>$20.00</td>
+		    	</tr><tr>
 			    	<td>Eyebrow</td>
 			        <td>$15.00</td>
 			    </tr><tr>
