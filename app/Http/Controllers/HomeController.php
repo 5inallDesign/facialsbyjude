@@ -12,7 +12,7 @@ class HomeController extends Controller
     	return $vw;
     }
 
-    public function getFacials()
+    public function getFacialsWaxing()
     {
     	$vw = view('home.facials');
     	$vw->title = "Facials and Waxing | Facials by Jude";

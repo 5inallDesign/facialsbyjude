@@ -21,12 +21,12 @@
                     <ul class="dropdown-menu full-width">
                         <div>
                             <div class="col-sm-3">
-                                <a class="title-link" href="{{url('/')}}/facials">
+                                <a class="title-link" href="{{url('/')}}/facials-waxing">
                                     Facials &amp; Waxing<br>
                                     <img src="{{url('/')}}/img/nav-facials.jpg" class="img-responsive hidden-xs" alt="Facials &amp; Waxing">
                                 </a>
                                 <ul>
-                                    <li><a href="{{url('/')}}/facials/ultrasonic-facial-treatment">Ultrasonic Facial Treatment</a></li>
+                                    <li><a href="{{url('/')}}/facials-waxing/ultrasonic-facial-treatment">Ultrasonic Facial Treatment</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-3">
