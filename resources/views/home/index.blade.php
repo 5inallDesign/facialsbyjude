@@ -1,6 +1,7 @@
 @extends('home.templates.master', array('var1'=>'', 'var2'=>''))
 @section('body')
 <h1>You'll Love the Facial - You'll Love the Price!</h1>
+<h2>Professional Facials and Waxing</h2>
 <div itemscope itemtype="http://schema.org/LocalBusiness">
 	<span itemprop="name">Facials by Jude</span><br>
 	<address class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -10,8 +11,6 @@
 		<span itemprop="telephone">248-736-2343</span> direct
 	</address>
 </div>
-
-<p>Professional Facials and Waxing</p>
 
 <div id="info">
 	<p><strong>Wednesday / Friday / Saturday</strong><br class="visible-xs-block">
