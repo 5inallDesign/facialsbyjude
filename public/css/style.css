@@ -7921,6 +7921,16 @@ body {
   background-size: cover;
   background-color: #FFFFFF; }
   @media (max-width: 768px) {
+    body.idea2 {
+      background-image: url(../img/background-mobile-2.jpg); }
+    body.idea3 {
+      background-image: url(../img/background-mobile-3.jpg);
+      background-position: right bottom; }
+    body.idea4 {
+      background-image: url(../img/background-mobile-4.jpg);
+      background-position: right top;
+      background-attachment: scroll; } }
+  @media (max-width: 768px) {
     body {
       font-size: 16px; } }
   @media (min-width: 768px) {
@@ -8150,6 +8160,12 @@ nav.navbar {
       padding-left: 0;
       overflow: visible; } }
 
+@media (max-width: 768px) {
+  body.idea2 .content {
+    background-color: rgba(255, 255, 255, 0.5); }
+
+  body.idea4 .content {
+    background-color: rgba(255, 255, 255, 0.62); } }
 /* Footer */
 footer.footer {
   margin: 20px auto;

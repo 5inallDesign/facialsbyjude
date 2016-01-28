@@ -2,13 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 class HomeController extends Controller
 {
-	public function getIndex()
+	public function getIndex(Request $request)
     {
     	$vw = view('home.index');
     	$vw->title = "Facials by Jude";
         $vw->description = "You'll Love the Facial - You'll Love the Price!";
+        $vw->idea = $request->input('idea');
     	return $vw;
     }
 
