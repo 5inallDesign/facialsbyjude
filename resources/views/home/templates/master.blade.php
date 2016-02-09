@@ -8,7 +8,7 @@
         <title>{{isset($title) ? $title : ''}}</title>
         <meta name="description" content="{{isset($description) ? $description : ''}}">
 
-        <link href="{{url('/')}}/css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="{{url('/')}}/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,8 +39,7 @@
 
     @include('home.templates.footer')
 
-    <script src="{{url('/')}}/js/jquery-1.11.3.min.js"></script>
-    <script src="{{url('/')}}/js/bootstrap.min.js"></script>
+    <script src="{{url('/')}}/js/master.js"></script>
 
     </body>
 </html>

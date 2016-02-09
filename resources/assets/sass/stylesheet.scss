@@ -1,0 +1,423 @@
+/*
+Theme Name: Facials By Jude 2016
+Author: Matt Crandell
+*/
+
+/* Bootstrap */
+@import "bootstrap";
+
+/* Font Awesome */
+@import "font-awesome";
+
+/* Variables */
+@import "variables";
+
+/* Mixins */
+@import "mixins";
+
+/* General Styles */
+html, body {
+	height: 100%;
+}
+body {
+	font-family: 'Liberation Sans', Arial, serif;
+	background-image: url(../img/background-mobile.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #FFFFFF;
+	@media (max-width: $screen-sm-min) {
+		&.idea2 {
+			background-image: url(../img/background-mobile-2.jpg);
+		}
+		&.idea3 {
+			background-image: url(../img/background-mobile-3.jpg);
+			background-position: right bottom;
+		}
+		&.idea4 {
+			background-image: url(../img/background-mobile-4.jpg);
+			background-position: right top;
+			background-attachment: scroll;
+		}
+	}
+	@media (max-width: $screen-sm-min) {
+		font-size: 16px;
+	}
+	@media (min-width: $screen-sm-min) {
+		background-image: url(../img/background-tablet.jpg);
+		background-position: -175px bottom;
+	}
+	@media (min-width: 1000px) {
+		background-image: url(../img/background-full-width.jpg);
+		background-position: center bottom;
+		webkit-background-size: auto;
+	    -moz-background-size: auto;
+	    -o-background-size: auto;
+	    background-size: auto; 
+	}
+}
+h1, .h1, h3, .h3 {
+	font-family: 'Centabel Book', 'Times New Roman', serif;
+	color: $magenta;
+	@media (max-width: $screen-sm-min) {
+		font-weight: bold;
+	}
+}
+h2, .h2 {
+	font-family: 'Centabel Book', 'Times New Roman', serif;
+	color: $green;
+	@media (max-width: $screen-sm-min) {
+		font-weight: bold;
+	}
+}
+a {
+	color: $red;
+	&:hover {
+		color: $darkred;
+		text-decoration: none;
+	}
+}
+hr {
+	border-top: 1px solid $pink;
+}
+.btn-magenta {
+	color: #FFF;
+	background-color: $magenta;
+	border-color: $darkred;
+	&:hover {
+		color: #FFF;
+		background-color: $red;
+	}
+}
+
+/* Header */
+header.header {
+	margin: 15px auto;
+	max-width: 1000px;
+	padding: 0 15px;
+	@media (min-width: $screen-sm-min) {
+		padding-left: 250px;
+		height: 75px;
+	}
+	@media (min-width: 1000px) {
+		padding-left: 0;
+	}
+	a {
+		display: block;
+	}
+	img {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		@media (min-width: $screen-sm-min) {
+			margin: 0;
+			height: 75px;
+			width: auto;
+		}
+	}
+}
+
+/* Navbar */
+nav.navbar {
+	background-color: #8a175a;
+	border: 2px solid #FCF;
+	border-left-width: 0;
+	border-right-width: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	@media (min-width: $screen-sm-min) {
+		/*margin-bottom: 15px;*/
+	}
+	.navbar-toggle {
+		border-radius: 2px;
+		border-color: #FFF;
+		.icon-bar {
+			background-color: #FFF;
+		}
+		&:hover, &:focus {
+			background-color: $magenta;
+		}
+		&:hover .icon-bar, &:focus .icon-bar {
+			background-color: #FFF;
+		}
+	}
+	.navbar-collapse {
+		margin: 0 auto;
+		@media (min-width: $screen-sm-min) {
+			padding-left: 225px;
+		}
+		@media (min-width: 1000px) {
+			max-width: 1000px;
+			padding-left: 0;
+		}
+	}
+	a {
+		color: #FCF;
+		cursor: pointer;
+		@media (min-width: $screen-md-min) {
+			font-size: 18px;
+		}
+		&:hover {
+			background-color: #FCF;
+			color: $magenta;
+		}
+	}
+	li.active a {
+		background-color: #FCF;
+		color: $magenta;
+	}
+	li.dropdown {
+		position: static;
+	}
+	.dropdown-menu.full-width {
+		left: 0;
+		right: 0;
+		border-radius: 0;
+		border: 0;
+		padding: 0;
+		background-color: #FCF;
+		/*opacity: 0;*/
+	    -webkit-transition: all .2s;
+	    -moz-transition: all .2s;
+	    transition: all .2s;
+		@media (min-width: $screen-sm-min) {
+			display: block;
+			height: 0;
+			overflow: hidden;
+		}
+		> div {
+			max-width: 1000px;
+			margin: 0 auto;
+			@media (min-width: $screen-sm-min) {
+				padding: 10px 0;
+			}
+			> div {
+				margin-bottom: 10px;
+			}
+		}
+		a {
+			text-decoration: none;
+			&:hover {
+				background: none;
+			}
+		}
+		img {
+			border: 1px solid $magenta;
+		}
+		ul {
+    		padding: 5px 15px;
+    		list-style: none;
+    		@media (min-width: $screen-sm-min) {
+    			margin: 2px 0 0;
+    		}
+    		a {
+    			color: $red;
+    			display: block;
+    			padding: 3px 20px;
+    			font-size: 14px;
+    			&:hover {
+    				color: $darkred;
+    			}
+    			@media (min-width: $screen-sm-min) {
+    				padding: 3px 0;
+    				&:before {
+    					content: "\f105";
+    					display: inline-block;
+					    font: normal normal normal 14px/1 FontAwesome;
+					    font-size: inherit;
+					    text-rendering: auto;
+					    -webkit-font-smoothing: antialiased;
+					    -moz-osx-font-smoothing: grayscale;
+					    margin-right: 5px;
+    				}
+    			}
+    		}
+		}
+	}
+	li.dropdown.open {
+		> a {
+			background-color: #FCF;
+			color: #8a175a;
+		}
+		.dropdown-menu.full-width {
+			/*opacity: 1;*/
+			@media (min-width: $screen-sm-min) {
+				height: 300px;
+			}
+		}
+	}
+	.title-link {
+		/*font-weight: bold;*/
+		width: 100%;
+		display: block;
+		padding: 10px 15px 0 25px;
+		color: $magenta;
+		&:hover {
+			color: $red;
+		}
+		@media (min-width: $screen-sm-min) {
+			text-align: center;
+			padding: 5px 10px;
+		}
+		@media (min-width: $screen-md-min) {
+			padding: 5px 15px;
+		}
+		img {
+			margin-top: 5px;
+		}
+	}
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+	border-radius: 0;
+	background: none;
+	border-bottom: 1px solid $pink;
+	display: none;
+	@media (min-width: $screen-sm-min) {
+		padding-left: 250px;
+		margin: 0 auto;
+		display: block;
+	}
+	@media (min-width: 1000px) {
+		max-width: 1000px;
+		padding-left: 15px;
+	}
+}
+
+/* Content */
+.content {
+	padding: 15px 30px;
+	margin: 0;
+	background-color: rgba(255,255,255,0.75);
+	min-height: 300px;
+	overflow: hidden;
+	@media (min-width: $screen-sm-min) {
+		padding: 0 15px 0 250px;
+		margin: 0 auto 15px auto;
+		background: none;
+	}
+	@media (min-width: 1000px) {
+		max-width: 1000px;
+		padding-left: 0;
+		overflow: visible;
+	}
+}
+@media (max-width: $screen-sm-min) {
+	body.idea2 .content {
+		background-color: rgba(255,255,255,0.5);
+	}
+	body.idea4 .content {
+		background-color: rgba(255,255,255,0.62);
+	}
+}
+
+/* Footer */
+footer.footer {
+	margin: 20px auto;
+	text-align: center;
+	p {
+		font-size: 10px;
+		margin-bottom: 2px;
+	}
+}
+
+/* Home Page */
+.featured-services {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	h2 {
+		font-size: 18px;
+		@media (min-width: $screen-sm-min) {
+			margin-top: 0;
+		}
+	}
+	>.col-md-6 {
+		margin-bottom: 10px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		&:nth-child(2) {
+			@media (min-width: $screen-md-min) {
+				border-left: 1px solid #CCC;
+			}
+		}
+		.col-sm-8 {
+			@media (min-width: $screen-sm-min) {
+				padding-left: 0;
+			}
+		}
+	}
+	img {
+		border: 1px solid $magenta;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 250px;
+	}
+	
+}
+.facebook-badge {
+	display: block;
+	border: 2px solid #0e1f5b;
+	border-radius: 3px;
+	vertical-align: middle;
+	color: #0e1f5b;
+	i {
+		background-color: #0e1f5b;
+		padding: 5px 8px;
+		margin-right: 5px;
+		color: #FFF;
+	}
+	&:hover {
+		border: 2px solid #3b5998;
+		color: #3b5998;
+		i {
+			background-color: #3b5998;
+		}
+	}
+}
+.featured {
+	p {
+		margin-bottom: 2px;
+		&.featured-title {
+			margin-bottom: 10px;
+		}
+	}
+	img {
+		width: 50px;
+		float: right;
+		display: block;
+		border: 2px solid $magenta;
+	}
+}
+
+/* Nerium AD */
+.product-img {
+	border: 2px solid $magenta;
+	margin: 0 auto;
+	max-width: 75px;
+	@media (min-width: $screen-sm-min) {
+		max-width: 195px;
+		margin-left: 15px;
+		float: right;
+	}
+}
+
+/* Common Styles */
+.margin-bottom-0 {
+	margin-bottom: 0;
+}
+.margin-top-0 {
+	margin-top: 0;
+}
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+.margin-bottom-15 {
+	margin-bottom: 15px;
+}
+.img-border {
+	border: 2px solid $magenta;
+}
