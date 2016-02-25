@@ -40,6 +40,10 @@ body {
 			background-position: right top;
 			background-attachment: scroll;
 		}
+		&.idea5 {
+			background-image: url(../img/background-mobile-4.jpg);
+			background-position: right top;
+		}
 	}
 	@media (max-width: $screen-sm-min) {
 		font-size: 16px;
@@ -309,7 +313,7 @@ nav.navbar {
 	body.idea2 .content {
 		background-color: rgba(255,255,255,0.5);
 	}
-	body.idea4 .content {
+	body.idea4 .content, body.idea5 .content  {
 		background-color: rgba(255,255,255,0.62);
 	}
 }
