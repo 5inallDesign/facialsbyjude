@@ -29,6 +29,7 @@
 					<a href="{{url('/')}}/galvanic-treatment">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
 			</div>
 		</div>
+		<hr class="visible-xs-block">
 	</div>
 	<div class="col-md-6 detoxifying-footbath">
 		<div class="row">
@@ -41,6 +42,7 @@
 					<a href="{{url('/')}}/footbath">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
 			</div>
 		</div>
+		<hr class="visible-xs-block">
 	</div>
 	<div class="clearfix"></div>
 	<div class="col-md-6 ultrasonic-facial-treatment">
@@ -54,12 +56,13 @@
 					<a href="{{url('/')}}/facials/ultrasonic-facial-treatment">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
 			</div>
 		</div>
+		<hr class="visible-xs-block">
 	</div>
 </div>
 
 <div id="content">
 	
-    <p><strong>Gift Certificates Available</strong></p>
+    <h3>Gift Certificates Available</h3>
 
 	<p>The appearance of one's skin is usually the first thing we look at upon meeting someone for the first time. We all want to maintain our appearance and look the best we can. In today's economy, it is so important to comfortably fit into the workplace, both physically and mentally. Having great looking skin sparks your self-confidence and helps you feel better about yourself. Facials are a great way to improve the tone, texture and moisture balance needed for a more youthful looking complexion.</p>
 	<p>With the newest technology, quality products, professional hydrating, a variety of facials, and of course, lots of TLC, it's easier than you think to keep your skin looking fabulous. An Esthetician that has all these tools to work with can improve your skin dramatically. My clients are pleasantly surprised with the improvement of their skin after their first appointment.</p>
@@ -69,9 +72,11 @@
   	<div class="row">
   		<div class="col-sm-3 col-sm-offset-1 margin-bottom-15">
   			<a href="http://www.facebook.com/pages/Facials-by-Jude/120751807964979" class="facebook-badge" target="_blank"><i class="fa fa-facebook"></i> Find Us on Facebook</a>
+  			<hr class="visible-xs-block">
   		</div>
   		<div class="col-sm-4 text-center margin-bottom-15">
   			<img src="{{url('/')}}/img/chamber-logo.gif" width="150" height="148" alt="Oxford, Michigan Chamber of Commerce" />
+  			<hr class="visible-xs-block">
   		</div>
   		<div class="col-sm-3 margin-bottom-15">
   			<div class="featured">
