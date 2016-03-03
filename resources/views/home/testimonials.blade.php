@@ -4,6 +4,13 @@
 <h1>Testimonials</h1>
 
 <div class="testimonial">
+	<p>Jude's Eyebrow waxing is AMAZING! She takes her time, is detailed, and very precise. She constructs &amp; shapes each brow unique to the individual. I've made the mistake in going elsewhere for an eyebrow waxing and regret the moment I did. Jude uses state of art resources to make every visit a wonderful experience, even when it's just an eyebrow wax. I highly recommend her! Schedule you're next waxing with Jude, you'll be glad you did!</p>
+	<h4>Mary J</h4>
+</div>
+
+<hr>
+
+<div class="testimonial">
 	<p>Jude's facials are by far the best value you can find anywhere.  The value, quality of product and her expertise provide a beauty treatment all can afford on a regular basis!</p>
 	<h4>Tressa Aube</h4>
 </div>

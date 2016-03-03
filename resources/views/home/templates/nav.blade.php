@@ -6,10 +6,13 @@
       	<!-- Brand and toggle get grouped for better mobile display -->
       	<div class="navbar-header">
         	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topNav-collapse">
-              	<span class="sr-only">Toggle navigation</span>
-              	<span class="icon-bar"></span>
-              	<span class="icon-bar"></span>
-              	<span class="icon-bar"></span>
+                <span class="pull-left toggle-text">Menu</span>
+                <span class="pull-right icon-bars">
+                  	<span class="sr-only">Toggle navigation</span>
+                  	<span class="icon-bar"></span>
+                  	<span class="icon-bar"></span>
+                  	<span class="icon-bar"></span>
+                </span>
         	</button>
       	</div>
 
