@@ -27,6 +27,11 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #FFFFFF;
+	&.idea4 {
+		background-image: url(../img/background-mobile.jpg);
+		background-position: right top;
+		background-attachment: scroll;
+	}
 	@media (max-width: $screen-sm-min) {
 		font-size: 16px;
 	}
@@ -53,6 +58,7 @@ div.mobile-bg {
 	z-index: -1;
 	height: 100%;
 	width: 100%;
+		display: none;
 	@media (min-width: $screen-sm-min) {
 		display: none;
 	}
