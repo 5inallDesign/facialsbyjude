@@ -7877,7 +7877,7 @@ body {
   background-image: url(../img/background-mobile.jpg);
   background-position: right top;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
   background-color: #FFFFFF; }
   @media (max-width: 768px) {
