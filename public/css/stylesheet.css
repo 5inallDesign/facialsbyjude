@@ -7877,8 +7877,8 @@ body {
   background-image: url(../img/background-mobile.jpg);
   background-position: right top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: fixed !important;
+  background-size: cover !important;
   background-color: #FFFFFF; }
   @media (max-width: 768px) {
     body {
@@ -7891,8 +7891,8 @@ body {
     body {
       background-image: url(../img/background-full-width.jpg);
       background-position: center bottom;
-      webkit-background-size: auto;
-      background-size: auto; } }
+      webkit-background-size: auto !important;
+      background-size: auto !important; } }
 
 h1, .h1, h3, .h3 {
   font-family: 'Centabel Book', 'Times New Roman', serif;

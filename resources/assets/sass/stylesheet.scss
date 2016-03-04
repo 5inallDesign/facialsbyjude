@@ -24,11 +24,11 @@ body {
 	background-image: url(../img/background-mobile.jpg);
 	background-position: right top;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background-attachment: fixed !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
 	background-color: #FFFFFF;
 	@media (max-width: $screen-sm-min) {
 		font-size: 16px;
@@ -40,10 +40,10 @@ body {
 	@media (min-width: 1000px) {
 		background-image: url(../img/background-full-width.jpg);
 		background-position: center bottom;
-		webkit-background-size: auto;
-	    -moz-background-size: auto;
-	    -o-background-size: auto;
-	    background-size: auto; 
+		webkit-background-size: auto !important;
+	    -moz-background-size: auto !important;
+	    -o-background-size: auto !important;
+	    background-size: auto !important;
 	}
 }
 h1, .h1, h3, .h3 {
