@@ -21,7 +21,7 @@ html, body {
 }
 body {
 	font-family: 'Liberation Sans', Arial, serif;
-	background-image: url(../img/background-mobile.jpg);
+	/*background-image: url(../img/background-mobile.jpg);*/
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -41,6 +41,20 @@ body {
 	    -moz-background-size: auto;
 	    -o-background-size: auto;
 	    background-size: auto; 
+	}
+}
+div.mobile-bg {
+	background-image: url(../img/background-mobile.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	position: fixed;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	@media (min-width: $screen-sm-min) {
+		display: none;
 	}
 }
 h1, .h1, h3, .h3 {
