@@ -8,7 +8,7 @@
         <title>{{isset($title) ? $title : ''}}</title>
         <meta name="description" content="{{isset($description) ? $description : ''}}">
 
-        <link href="{{url('/')}}/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="{{url('/')}}/css/stylesheet.css?v={{time()}}" rel="stylesheet" type="text/css" media="all" />
 
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
