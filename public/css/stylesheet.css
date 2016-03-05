@@ -7876,9 +7876,9 @@ body {
   font-family: 'Liberation Sans', Arial, serif;
   background-image: url(../img/background-mobile.jpg);
   background-position: right top;
-  background-repeat: no-repeat;
-  background-attachment: fixed !important;
-  background-size: cover !important;
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+  background-size: cover;
   background-color: #FFFFFF; }
   @media (max-width: 768px) {
     body {
@@ -7886,13 +7886,15 @@ body {
   @media (min-width: 768px) {
     body {
       background-image: url(../img/background-tablet.jpg);
-      background-position: -175px bottom; } }
+      background-position: -175px bottom;
+      background-repeat: no-repeat;
+      background-attachment: fixed; } }
   @media (min-width: 1000px) {
     body {
       background-image: url(../img/background-full-width.jpg);
       background-position: center bottom;
-      webkit-background-size: auto !important;
-      background-size: auto !important; } }
+      webkit-background-size: auto;
+      background-size: auto; } }
 
 h1, .h1, h3, .h3 {
   font-family: 'Centabel Book', 'Times New Roman', serif;
