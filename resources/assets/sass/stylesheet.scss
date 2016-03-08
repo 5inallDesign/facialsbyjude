@@ -210,7 +210,7 @@ nav.navbar {
 			border: 1px solid $magenta;
 		}
 		ul {
-    		padding: 5px 15px;
+    		padding: 5px 0px;
     		list-style: none;
     		@media (min-width: $screen-sm-min) {
     			margin: 2px 0 0;
@@ -218,7 +218,7 @@ nav.navbar {
     		a {
     			color: $red;
     			display: block;
-    			padding: 3px 20px;
+    			padding: 8px 20px;
     			font-size: 14px;
     			&:hover {
     				color: $darkred;
@@ -247,7 +247,7 @@ nav.navbar {
 		.dropdown-menu.full-width {
 			/*opacity: 1;*/
 			@media (min-width: $screen-sm-min) {
-				height: 300px;
+				height: 315px;
 			}
 		}
 	}
@@ -255,17 +255,17 @@ nav.navbar {
 		/*font-weight: bold;*/
 		width: 100%;
 		display: block;
-		padding: 10px 15px 0 25px;
+		padding: 15px 15px 5px 25px;
 		color: $magenta;
 		&:hover {
-			color: $red;
+			color: $darkred;
 		}
 		@media (min-width: $screen-sm-min) {
 			text-align: center;
-			padding: 5px 10px;
+			padding: 5px 0px;
 		}
 		@media (min-width: $screen-md-min) {
-			padding: 5px 15px;
+			/*padding: 5px 15px;*/
 		}
 		img {
 			margin-top: 5px;
@@ -294,13 +294,13 @@ nav.navbar {
 .content {
 	padding: 15px 30px;
 	margin: 0;
-	background-color: rgba(255,255,255,0.75);
+	/*background-color: rgba(255,255,255,0.75);*/
 	min-height: 300px;
 	overflow: hidden;
 	@media (min-width: $screen-sm-min) {
 		padding: 0 15px 0 250px;
 		margin: 0 auto 15px auto;
-		background: none;
+		/*background: none;*/
 	}
 	@media (min-width: 1000px) {
 		max-width: 1000px;

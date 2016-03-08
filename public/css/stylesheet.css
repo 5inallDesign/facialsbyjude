@@ -7915,7 +7915,7 @@ h2, .h2 {
 a {
   color: #990033; }
   a:hover {
-    color: #6f0229;
+    color: #5e3e4a;
     text-decoration: none; }
 
 hr {
@@ -7924,7 +7924,7 @@ hr {
 .btn-magenta {
   color: #FFF;
   background-color: #8a175a;
-  border-color: #6f0229; }
+  border-color: #5e3e4a; }
   .btn-magenta:hover {
     color: #FFF;
     background-color: #990033; }
@@ -8032,7 +8032,7 @@ nav.navbar {
     nav.navbar .dropdown-menu.full-width img {
       border: 1px solid #8a175a; }
     nav.navbar .dropdown-menu.full-width ul {
-      padding: 5px 15px;
+      padding: 5px 0px;
       list-style: none; }
       @media (min-width: 768px) {
         nav.navbar .dropdown-menu.full-width ul {
@@ -8040,10 +8040,10 @@ nav.navbar {
       nav.navbar .dropdown-menu.full-width ul a {
         color: #990033;
         display: block;
-        padding: 3px 20px;
+        padding: 8px 20px;
         font-size: 14px; }
         nav.navbar .dropdown-menu.full-width ul a:hover {
-          color: #6f0229; }
+          color: #5e3e4a; }
         @media (min-width: 768px) {
           nav.navbar .dropdown-menu.full-width ul a {
             padding: 3px 0; }
@@ -8063,22 +8063,22 @@ nav.navbar {
     /*opacity: 1;*/ }
     @media (min-width: 768px) {
       nav.navbar li.dropdown.open .dropdown-menu.full-width {
-        height: 300px; } }
+        height: 315px; } }
   nav.navbar .title-link {
     /*font-weight: bold;*/
     width: 100%;
     display: block;
-    padding: 10px 15px 0 25px;
+    padding: 15px 15px 5px 25px;
     color: #8a175a; }
     nav.navbar .title-link:hover {
-      color: #990033; }
+      color: #5e3e4a; }
     @media (min-width: 768px) {
       nav.navbar .title-link {
         text-align: center;
-        padding: 5px 10px; } }
+        padding: 5px 0px; } }
     @media (min-width: 992px) {
       nav.navbar .title-link {
-        padding: 5px 15px; } }
+        /*padding: 5px 15px;*/ } }
     nav.navbar .title-link img {
       margin-top: 5px; }
 
@@ -8102,14 +8102,14 @@ nav.navbar {
 .content {
   padding: 15px 30px;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.75);
+  /*background-color: rgba(255,255,255,0.75);*/
   min-height: 300px;
   overflow: hidden; }
   @media (min-width: 768px) {
     .content {
       padding: 0 15px 0 250px;
       margin: 0 auto 15px auto;
-      background: none; } }
+      /*background: none;*/ } }
   @media (min-width: 1000px) {
     .content {
       max-width: 1000px;

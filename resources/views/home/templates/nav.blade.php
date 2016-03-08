@@ -25,8 +25,8 @@
                         <div>
                             <div class="col-sm-3">
                                 <a class="title-link" href="{{url('/')}}/facials-waxing">
-                                    Facials &amp; Waxing<br>
                                     <img src="{{url('/')}}/img/nav-facials.jpg" class="img-responsive hidden-xs" alt="Facials &amp; Waxing">
+                                    <span class="title-link-text">Facials &amp; Waxing</span>
                                 </a>
                                 <ul>
                                     <li><a href="{{url('/')}}/facials-waxing/microdermabrasion-treatments">Microdermabrasion Treatments</a></li>
@@ -34,21 +34,21 @@
                                 </ul>
                             </div>
                             <div class="col-sm-3">
-                                <a class="title-link" href="{{url('/')}}/galvanic-treatment"
-                                    >Galvanic Treatment<br>
+                                <a class="title-link" href="{{url('/')}}/galvanic-treatment">
                                     <img src="{{url('/')}}/img/nav-galvanic.jpg" class="img-responsive hidden-xs" alt="Galvanic Treatment">
+                                    <span class="title-link-text">Galvanic Treatment</span>
                                 </a>
                             </div>
                             <div class="col-sm-3">
                                 <a class="title-link" href="{{url('/')}}/glycolic-peels">
-                                    Glycolic Peels<br>
                                     <img src="{{url('/')}}/img/nav-peel.jpg" class="img-responsive hidden-xs" alt="Glycolic Peels">
+                                    <span class="title-link-text">Glycolic Peels</span>
                                 </a>
                             </div>
                             <div class="col-sm-3">
                                 <a href="{{url('/')}}/footbath" class="title-link">
-                                    Detoxifying Footbath<br>
                                     <img src="{{url('/')}}/img/nav-footbath.jpg" class="img-responsive hidden-xs" alt="Detoxifying Footbath">
+                                    <span class="title-link-text">Detoxifying Footbath</span>
                                 </a>
                                 <ul>
                                     <li><a href="{{url('/')}}/footbath">Look and Feel Great!</a></li>

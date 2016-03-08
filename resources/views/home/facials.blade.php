@@ -16,8 +16,8 @@
 		   	</thead>
 		   	<tbody>
 			   	<tr>
-			    	<td>Signature Facial (European)</td>
-			        <td>$65.00</td>
+			    	<td>Signature European Facial (Includes Galvanic Facial)</td>
+			        <td>$95.00</td>
 			    </tr><tr>
 			    	<td>Stimulating Deep Pore Cleanse Facial</td>
 			        <td>$65.00</td>
@@ -44,16 +44,16 @@
 			        <td>$55.00</td>
 			    </tr><tr>
 			    	<td>Galvanic Treatment Only</td>
-			        <td>$40.00</td>
+			        <td>$35.00</td>
 			    </tr><tr>
 			    	<td>Teen Facial (Cleanse, Treat, and Educate your Teen on Proper Skin Care)</td>
-			        <td>$30.00</td>
+			        <td>$35.00</td>
 			    </tr><tr>
 			    	<td>Express Facial</td>
-			        <td>$30.00</td>
+			        <td>$35.00</td>
 			    </tr><tr>
 			    	<td>Back Treatment</td>
-			        <td>$65.00</td>
+			        <td>$75.00</td>
 			    </tr><tr>
 			    	<td>Ultra Brightening Facial</td>
 			        <td>$65.00</td>
@@ -61,8 +61,11 @@
 			    	<td>Ultra Hydrating Facial</td>
 			        <td>$65.00</td>
 			    </tr><tr>
-			    	<td>Full Body Salt Scrub (Softens and Detoxifies the Skin)</td>
-			        <td>$125.00</td>
+			    	<td>Glycol Acid Treatment</td>
+			    	<td>30.00</td>
+			    </tr><tr>
+			    	<td>Microdermabrasion Treatment</td>
+			        <td>$30.00</td>
 			    </tr>
 			</tbody>
 		</table>
@@ -90,7 +93,7 @@
 			        <td>$12.00</td>
 			    </tr><tr>
 			    	<td>Face</td>
-			        <td>$15.00+</td>
+			        <td>$20.00+</td>
 			    </tr><tr>
 			    	<td>Under Arm</td>
 			        <td>$20.00</td>
@@ -105,13 +108,13 @@
 			        <td>$22.00</td>
 			    </tr><tr>
 			    	<td>Half Leg</td>
-			        <td>$30.00+</td>
+			        <td>$40.00+</td>
 			    </tr><tr>
 			    	<td>Full Leg</td>
-			        <td>$50.00+</td>
+			        <td>$90.00+</td>
 			    </tr><tr>
 			    	<td>Bikini</td>
-			        <td>$20.00+</td>
+			        <td>$35.00+</td>
 			    </tr><!--<tr>
 			    	<td>Brazilian (1st time)</td>
 			        <td>$65.00</td>
@@ -125,7 +128,7 @@
 			    	<td>Ears</td>
 			        <td>$20.00</td>
 			    </tr><tr>
-			    	<td>Nose</td>
+			    	<td>Nose Trimming</td>
 			        <td>$15.00</td>
 			    </tr>
 			</tbody>
