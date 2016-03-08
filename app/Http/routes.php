@@ -13,6 +13,7 @@
 
 $app->get('/', 'HomeController@getIndex');
 $app->get('/facials-waxing', 'HomeController@getFacialsWaxing');
+$app->get('/facials-waxing/microdermabrasion-treatments', 'HomeController@getMicrodermabrasionTreatments');
 $app->get('/facials-waxing/ultrasonic-facial-treatment', 'HomeController@getUltrasonicFacialTreatment');
 $app->get('/facials-waxing/ultrasonic-facial-treatment/benefits', 'HomeController@getUltrasonicFacialTreatment2');
 $app->get('/galvanic-treatment', 'HomeController@getGalvanicTreatment');

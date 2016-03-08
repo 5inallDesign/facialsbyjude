@@ -2,7 +2,7 @@
 @section('breadcrumbs')
 <ol class="breadcrumb">
   <li><a href="{{url('/')}}">Home</a></li>
-  <li><a href="{{url('/')}}/facials-waxing">Facials</a></li>
+  <li><a href="{{url('/')}}/facials-waxing">Facials &amp; Waxing</a></li>
   <li class="active">Ultrasonic Facial Treatment</li>
 </ol>
 @stop

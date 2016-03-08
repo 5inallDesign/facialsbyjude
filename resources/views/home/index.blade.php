@@ -31,6 +31,20 @@
 		</div>
 		<hr class="visible-xs-block">
 	</div>
+	<div class="col-md-6 microdermabrasion-treatments">
+		<div class="row">
+			<div class="col-sm-4">
+				<img src="{{url('/')}}/img/microdermabrasion-treatments-home-page.jpg" alt="Microdermabrasion Treatments" class="img-responsive">
+			</div>
+			<div class="col-sm-8">
+				<h2>Microdermabrasion Treatments</h2>
+				<p>Microdermabrasion treatments use a minimally abrasive instrument to gently sand your skin, removing the thicker, uneven outer layer. This type of skin rejuvenation is used to treat light scarring, discoloration, sun damage, and stretch marks.<br>
+					<a href="{{url('/')}}/facials-waxing/microdermabrasion-treatments">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
+			</div>
+		</div>
+		<hr class="visible-xs-block">
+	</div>
+	<div class="clearfix"></div>
 	<div class="col-md-6 detoxifying-footbath">
 		<div class="row">
 			<div class="col-sm-4">
@@ -44,7 +58,6 @@
 		</div>
 		<hr class="visible-xs-block">
 	</div>
-	<div class="clearfix"></div>
 	<div class="col-md-6 ultrasonic-facial-treatment">
 		<div class="row">
 			<div class="col-sm-4">
@@ -52,8 +65,8 @@
 			</div>
 			<div class="col-sm-8">
 				<h2>Ultrasonic Facial Treatment</h2>
-				<p>This treatment pushes away impurities and dead skin cells. Ultrasonic waves and a special misting spray work together to cleanse skin pores, clear up complexions and prepare the skin for further aesthetic treatments and topical applications.<br>
-					<a href="{{url('/')}}/facials/ultrasonic-facial-treatment">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
+				<p>During the Ultra Sonic Treatment high frequency sound waves are sent deep below the skin to encourage cellular repair, increasing collagen and elastin levels and to improve the penetration of nourishing skin care topical creams and serums.<br>
+					<a href="{{url('/')}}/facials-waxing/ultrasonic-facial-treatment">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
 			</div>
 		</div>
 		<hr class="visible-xs-block">

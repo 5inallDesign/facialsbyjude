@@ -8146,7 +8146,7 @@ footer.footer {
     .featured-services > .col-md-6:last-child {
       margin-bottom: 0; }
     @media (min-width: 992px) {
-      .featured-services > .col-md-6:nth-child(2) {
+      .featured-services > .col-md-6:nth-child(2), .featured-services > .col-md-6:nth-child(5) {
         border-left: 1px solid #CCC; } }
     @media (min-width: 768px) {
       .featured-services > .col-md-6 .col-sm-8 {

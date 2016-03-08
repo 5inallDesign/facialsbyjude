@@ -342,7 +342,7 @@ footer.footer {
 		&:last-child {
 			margin-bottom: 0;
 		}
-		&:nth-child(2) {
+		&:nth-child(2), &:nth-child(5) {
 			@media (min-width: $screen-md-min) {
 				border-left: 1px solid #CCC;
 			}

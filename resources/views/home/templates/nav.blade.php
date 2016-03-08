@@ -29,6 +29,7 @@
                                     <img src="{{url('/')}}/img/nav-facials.jpg" class="img-responsive hidden-xs" alt="Facials &amp; Waxing">
                                 </a>
                                 <ul>
+                                    <li><a href="{{url('/')}}/facials-waxing/microdermabrasion-treatments">Microdermabrasion Treatments</a></li>
                                     <li><a href="{{url('/')}}/facials-waxing/ultrasonic-facial-treatment">Ultrasonic Facial Treatment</a></li>
                                 </ul>
                             </div>

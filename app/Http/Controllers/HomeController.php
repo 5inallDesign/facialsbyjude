@@ -24,6 +24,15 @@ class HomeController extends Controller
     	return $vw;
     }
 
+    public function getMicrodermabrasionTreatments()
+    {
+        $vw = view('home.microdermabrasion-treatments');
+        $vw->title = "Microdermabrasion Treatments | Facials by Jude";
+        $vw->description = "Microdermabrasion treatments is used to treat light scarring, discoloration, sun damage, and stretch marks.";
+        $vw->active_page = 'services';
+        return $vw;
+    }
+
     public function getUltrasonicFacialTreatment()
     {
         $vw = view('home.ultrasonic-facial-treatment');

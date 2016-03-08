@@ -141,6 +141,15 @@
 
 <p>Downtown Salon has been serving the friendly people of Downtown Oxford and the surrounding areas for almost 12 years.</p>
 
+<h2>Microdermabrasion Treatments</h2>
+<p>Microdermabrasion treatments use a minimally abrasive instrument to gently sand your skin, removing the thicker, uneven outer layer. This type of skin rejuvenation is used to treat light scarring, discoloration, sun damage, and stretch marks.<br>
+	<a href="{{url('/')}}/facials-waxing/microdermabrasion-treatments">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
+
+
+<h2>Ultrasonic Facial Treatment</h2>
+<p>During the Ultra Sonic Treatment high frequency sound waves are sent deep below the skin to encourage cellular repair, increasing collagen and elastin levels and to improve the penetration of nourishing skin care topical creams and serums.<br>
+	<a href="{{url('/')}}/facials-waxing/ultrasonic-facial-treatment">Click here to see more <i class="fa fa-arrow-circle-o-right"></i></a></p>
+
 
 <h2>Specials</h2>
 
