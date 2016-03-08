@@ -8063,19 +8063,22 @@ nav.navbar {
     /*opacity: 1;*/ }
     @media (min-width: 768px) {
       nav.navbar li.dropdown.open .dropdown-menu.full-width {
-        height: 315px; } }
+        height: 325px; } }
   nav.navbar .title-link {
     /*font-weight: bold;*/
     width: 100%;
     display: block;
-    padding: 15px 15px 5px 25px;
+    padding: 15px 15px 5px 10px;
     color: #8a175a; }
     nav.navbar .title-link:hover {
       color: #5e3e4a; }
     @media (min-width: 768px) {
       nav.navbar .title-link {
         text-align: center;
-        padding: 5px 0px; } }
+        padding: 5px 0px; }
+        nav.navbar .title-link .title-link-text {
+          margin-top: 5px;
+          display: block; } }
     @media (min-width: 992px) {
       nav.navbar .title-link {
         /*padding: 5px 15px;*/ } }
