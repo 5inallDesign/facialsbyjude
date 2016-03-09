@@ -7886,7 +7886,7 @@ body {
   @media (min-width: 768px) {
     body {
       background-image: url(../img/background-tablet.jpg);
-      background-position: -175px bottom;
+      background-position: right top;
       background-repeat: no-repeat;
       background-attachment: fixed;
       webkit-background-size: auto;
@@ -7936,7 +7936,7 @@ header.header {
   padding: 0 15px; }
   @media (min-width: 768px) {
     header.header {
-      padding-left: 250px;
+      padding-right: 250px;
       height: 75px; } }
   @media (min-width: 1000px) {
     header.header {
@@ -7964,7 +7964,14 @@ nav.navbar {
   margin-bottom: 0; }
   @media (min-width: 768px) {
     nav.navbar {
-      /*margin-bottom: 15px;*/ } }
+      /*margin-bottom: 15px;*/
+      padding-right: 0; }
+      nav.navbar > .container-fluid {
+        padding-left: 0; } }
+  @media (min-width: 1000px) {
+    nav.navbar > .container-fluid {
+      padding: 0;
+      margin-left: -25px; } }
   nav.navbar .navbar-toggle {
     border-radius: 2px;
     border-color: #FFF;
@@ -7984,7 +7991,8 @@ nav.navbar {
     margin: 0 auto; }
     @media (min-width: 768px) {
       nav.navbar .navbar-collapse {
-        padding-left: 225px; } }
+        /*padding-left: 225px;*/
+        padding-left: 0; } }
     @media (min-width: 1000px) {
       nav.navbar .navbar-collapse {
         max-width: 1000px;
@@ -8093,7 +8101,7 @@ nav.navbar {
   display: none; }
   @media (min-width: 768px) {
     .breadcrumb {
-      padding-left: 250px;
+      padding-right: 250px;
       margin: 0 auto;
       display: block; } }
   @media (min-width: 1000px) {
@@ -8110,7 +8118,7 @@ nav.navbar {
   overflow: hidden; }
   @media (min-width: 768px) {
     .content {
-      padding: 0 15px 0 250px;
+      padding: 0 250px 0 15px;
       margin: 0 auto 15px auto;
       /*background: none;*/ } }
   @media (min-width: 1000px) {
