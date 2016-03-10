@@ -11,6 +11,14 @@
 |
 */
 
+// Old Redirects
+$app->get('/facials.html', function () {
+    return redirect('/facials-waxing', 301);
+});
+$app->get('/galvanic-treatment.html.html', function () {
+    return redirect('/galvanic-treatment', 301);
+});
+
 $app->get('/', 'HomeController@getIndex');
 $app->get('/facials-waxing', 'HomeController@getFacialsWaxing');
 $app->get('/facials-waxing/microdermabrasion-treatments', 'HomeController@getMicrodermabrasionTreatments');
