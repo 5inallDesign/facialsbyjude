@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
         <title>{{isset($title) ? $title : ''}}</title>
         <meta name="description" content="{{isset($description) ? $description : ''}}">
 
-        <link href="{{url('/')}}/css/stylesheet.css?v={{time()}}" rel="stylesheet" type="text/css" media="all" />
+        <link href="{{url('/')}}/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
 
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -37,7 +37,7 @@
 
         <![endif]-->
     </head>
-    <body class="{{isset($idea)?'idea'.$idea:''}}">
+    <body>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
