@@ -130,6 +130,9 @@
 			    </tr><tr>
 			    	<td>Nose Trimming</td>
 			        <td>$15.00</td>
+			    </tr><tr>
+			    	<td>Brow Tinting</td>
+			        <td>$20.00</td>
 			    </tr>
 			</tbody>
 		</table>

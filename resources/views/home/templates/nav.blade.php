@@ -51,7 +51,6 @@
                                     <span class="title-link-text">Detoxifying Footbath</span>
                                 </a>
                                 <ul>
-                                    <li><a href="{{url('/')}}/footbath">Look and Feel Great!</a></li>
                                     <li><a href="{{url('/')}}/footbath/why">Why a Detox Footbath?</a></li>
                                     <li><a href="{{url('/')}}/footbath/symptoms">Symptoms</a></li>
                                 </ul>

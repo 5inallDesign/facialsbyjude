@@ -8046,12 +8046,12 @@ nav.navbar {
         nav.navbar .dropdown-menu.full-width ul {
           margin: 2px 0 0; } }
       nav.navbar .dropdown-menu.full-width ul a {
-        color: #990033;
+        color: #5e3e4a;
         display: block;
         padding: 8px 20px;
         font-size: 14px; }
         nav.navbar .dropdown-menu.full-width ul a:hover {
-          color: #5e3e4a; }
+          color: #990033; }
         @media (min-width: 768px) {
           nav.navbar .dropdown-menu.full-width ul a {
             padding: 3px 0; }
@@ -8077,13 +8077,15 @@ nav.navbar {
     width: 100%;
     display: block;
     padding: 15px 15px 5px 10px;
-    color: #8a175a; }
+    color: #8a175a;
+    font-size: 16px; }
     nav.navbar .title-link:hover {
       color: #5e3e4a; }
     @media (min-width: 768px) {
       nav.navbar .title-link {
         text-align: center;
-        padding: 5px 0px; }
+        padding: 5px 0px;
+        font-size: 18px; }
         nav.navbar .title-link .title-link-text {
           margin-top: 5px;
           display: block; } }
