@@ -15,7 +15,7 @@
 $app->get('/facials.html', function () {
     return redirect('/facials-waxing', 301);
 });
-$app->get('/galvanic-treatment.html.html', function () {
+$app->get('/galvanic-treatment.html', function () {
     return redirect('/galvanic-treatment', 301);
 });
 
