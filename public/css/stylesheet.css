@@ -8025,13 +8025,13 @@ nav.navbar {
         display: block;
         height: 0;
         overflow: hidden; } }
-    nav.navbar .dropdown-menu.full-width > div {
+    nav.navbar .dropdown-menu.full-width > li {
       max-width: 1000px;
       margin: 0 auto; }
       @media (min-width: 768px) {
-        nav.navbar .dropdown-menu.full-width > div {
+        nav.navbar .dropdown-menu.full-width > li {
           padding: 10px 0; } }
-      nav.navbar .dropdown-menu.full-width > div > div {
+      nav.navbar .dropdown-menu.full-width > li > div {
         margin-bottom: 10px; }
     nav.navbar .dropdown-menu.full-width a {
       text-decoration: none; }

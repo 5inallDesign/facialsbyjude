@@ -1,7 +1,7 @@
 <header class="header">
     <a href="{{url('/')}}"><img srcset="{{url('/')}}/img/facials-by-jude-logo.svg 2x" src="{{url('/')}}/img/facials-by-jude-logo.png" alt="Facials by Jude" class="logo"></a>
 </header>
-<nav class="navbar" role="navigation" id="topNav">
+<nav class="navbar" id="topNav">
 	<div class="container-fluid">
       	<!-- Brand and toggle get grouped for better mobile display -->
       	<div class="navbar-header">
@@ -22,7 +22,7 @@
 		   		<li class="{{(isset($active_page)) && ($active_page == 'services')?'active':''}} dropdown">
                     <a data-toggle="dropdown">Services <span class="caret"></span></a>
                     <ul class="dropdown-menu full-width">
-                        <div>
+                        <li>
                             <div class="col-sm-3">
                                 <a class="title-link" href="{{url('/')}}/facials-waxing">
                                     <img src="{{url('/')}}/img/nav-facials.jpg" class="img-responsive hidden-xs" alt="Facials &amp; Waxing">
@@ -56,7 +56,7 @@
                                 </ul>
                             </div>
                             <div class="clearfix"></div>
-                        </div>
+                        </li>
                     </ul>
                 </li>
                 <li class="{{(isset($active_page)) && ($active_page == 'neriumad')?'active':''}}"><a href="{{url('/')}}/neriumad">NeriumAD</a></li>

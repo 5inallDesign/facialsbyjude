@@ -11,9 +11,7 @@
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
-        "fzaninotto/faker": "~1.0",
-        "FortAwesome/Font-Awesome": "^4.5",
-        "twbs/bootstrap-sass": "~3.3"
+        "fzaninotto/faker": "~1.0"
     },
     "autoload": {
         "psr-4": {

@@ -201,7 +201,7 @@ nav.navbar {
 			height: 0;
 			overflow: hidden;
 		}
-		> div {
+		> li {
 			max-width: 1000px;
 			margin: 0 auto;
 			@media (min-width: $screen-sm-min) {

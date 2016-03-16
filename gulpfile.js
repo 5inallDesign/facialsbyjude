@@ -17,12 +17,12 @@ elixir(function(mix) {
 		'public/css/stylesheet.css',
 		{
 	        includePaths: [
-	            'vendor/twbs/bootstrap-sass/assets/stylesheets/',
-	            'vendor/fortawesome/font-awesome/scss/'
+	            'node_modules/bootstrap-sass/assets/stylesheets/',
+	            'node_modules/font-awesome/scss/'
 	        ],
       	}
     );
-    mix.copy('vendor/twbs/bootstrap-sass/assets/javascripts/*.js', 'resources/assets/js/bootstrap');
+    mix.copy('node_modules/bootstrap-sass/assets/javascripts/*.js', 'resources/assets/js/bootstrap');
     mix.scripts(
 		[
 	        'jquery-2.2.0.min.js',
@@ -30,7 +30,7 @@ elixir(function(mix) {
 		],
 		'public/js/master.js'
     );
-	mix.copy('vendor/twbs/bootstrap-sass/assets/fonts', 'public/fonts/bootstrap');
-	mix.copy('vendor/fortawesome/font-awesome/fonts', 'public/fonts');
+	mix.copy('node_modules/bootstrap-sass/assets/fonts', 'public/fonts/bootstrap');
+	mix.copy('node_modules/font-awesome/fonts', 'public/fonts');
 	mix.copy('resources/assets/fonts', 'public/fonts');
 });
