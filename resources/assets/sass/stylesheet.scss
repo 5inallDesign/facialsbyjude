@@ -116,7 +116,7 @@ header.header {
 
 /* Navbar */
 nav.navbar {
-	background-color: #8a175a;
+	background-color: $magenta;
 	border: 2px solid #FCF;
 	border-left-width: 0;
 	border-right-width: 0;
@@ -410,6 +410,26 @@ footer.footer {
 		float: right;
 		display: block;
 		border: 2px solid $magenta;
+	}
+}
+.featured-img-before.col-xs-6 {
+	padding-right: 5px;
+}
+.featured-img-after.col-xs-6 {
+	padding-left: 5px;
+}
+.featured-img-before.col-xs-6 div, .featured-img-after.col-xs-6 div {
+	position: relative;
+	div {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding: 5px 0;
+		background-color: $magenta;
+		text-align: center;
+		color: #FFF;
+		font-family: 'Centabel Book', 'Times New Roman', serif;
+		font-size: 16px;
 	}
 }
 

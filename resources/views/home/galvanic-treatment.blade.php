@@ -3,16 +3,24 @@
 <h1>Galvanic Facial Treatment</h1>
 
 <div class="row">
-	<div class="col-sm-3">
+	<div class="col-md-4 col-sm-6">
 		<!--<img src="{{url('')}}/img/galvanic-treatment-home-page.jpg" alt="Galvanic Treatment" class="img-responsive margin-bottom-15 img-border">-->
-		<div class="featured-img featured-img-before">
-			<img src="{{url('')}}/img/galvanic-treatment-before.jpg" alt="Galvanic Treatment Before" class="img-responsive margin-bottom-15 img-border">
+		<div class="row">
+		<div class="featured-img featured-img-before col-xs-6">
+			<div>
+				<img src="{{url('')}}/img/galvanic-treatment-before.jpg" alt="Galvanic Treatment Before" class="img-responsive margin-bottom-15 img-border">
+				<div>Before</div>
+			</div>
 		</div>
-		<div class="featured-img featured-img-after">
-			<img src="{{url('')}}/img/galvanic-treatment-after.jpg" alt="Galvanic Treatment After" class="img-responsive margin-bottom-15 img-border">
+		<div class="featured-img featured-img-after col-xs-6">
+			<div>
+				<img src="{{url('')}}/img/galvanic-treatment-after.jpg" alt="Galvanic Treatment After" class="img-responsive margin-bottom-15 img-border">
+				<div>After</div>
+			</div>
+		</div>
 		</div>
 	</div>
-	<div class="col-sm-9">
+	<div class="col-md-8 col-sm-6">
 
 		<p>This treatment is perfect for everyone, at any age, whose skin is suffering from the effects of dehydration and congestion. Things that aggravate these conditions are aging skin, stress, environmental pollution, lack of moisture, smoking or poor diet.</p>
 
