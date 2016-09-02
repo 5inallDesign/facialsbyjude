@@ -28,7 +28,7 @@
 		</ul>
 	</div>
 	<div class="col-sm-4">
-		<a class="btn btn-magenta btn-lg btn-block" href="{{url('/')}}/facials-waxing/ultrasonic-facial-treatment/benefits">See the Benefits <i class="fa fa-angle-right"></i></a>
+		<a class="btn btn-disco btn-lg btn-block" href="{{url('/')}}/facials-waxing/ultrasonic-facial-treatment/benefits">See the Benefits <i class="fa fa-angle-right"></i></a>
 	</div>
 </div>
 

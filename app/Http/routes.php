@@ -19,6 +19,10 @@ $app->get('/galvanic-treatment.html', function () {
     return redirect('/galvanic-treatment', 301);
 });
 
+$app->get('/style', function () {
+    return view('style');
+});
+
 $app->get('/', 'HomeController@getIndex');
 $app->get('/facials-waxing', 'HomeController@getFacialsWaxing');
 $app->get('/facials-waxing/microdermabrasion-treatments', 'HomeController@getMicrodermabrasionTreatments');
