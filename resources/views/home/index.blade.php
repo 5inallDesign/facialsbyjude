@@ -10,7 +10,7 @@
 		<span itemprop="addressRegion">MI</span>
 		<span itemprop="postalCode">48371</span>
 		<br>
-		<span itemprop="telephone">248-736-2343</span> direct
+		<a href="tel:2487362343"><span itemprop="telephone">248-736-2343</span></a> direct
 	</address>
 </div>
 
