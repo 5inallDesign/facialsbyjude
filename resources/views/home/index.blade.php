@@ -3,11 +3,13 @@
 <h1>You'll Love the Facial - You'll Love the Price!</h1>
 <h2>Professional Facials and Waxing</h2>
 <div itemscope itemtype="http://schema.org/LocalBusiness">
-	<span itemprop="name">Facials by Jude</span><br>
+	<span itemprop="name">Studio 113 Hair Salon</span><br>
 	<address class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-		Downtown Salon, <span itemprop="streetAddress">40 S. Washington</span>,
+		<span itemprop="streetAddress">117 S. Washington St</span>,
 		<span itemprop="addressLocality">Oxford</span>,
-		<span itemprop="addressRegion">MI</span><br>
+		<span itemprop="addressRegion">MI</span>
+		<span itemprop="postalCode">48371</span>
+		<br>
 		<span itemprop="telephone">248-736-2343</span> direct
 	</address>
 </div>
