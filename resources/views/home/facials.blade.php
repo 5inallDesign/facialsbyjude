@@ -139,13 +139,13 @@
 	</div>
 </div>
 
-<p>You will find Jude at Downtown Salon, Oxford, Michigan, directly north of the Oxford Theatre.</p>
+<p>You will find Jude at Studio 113 Hair Salon, Oxford, Michigan, directly south of Downtown Oxford.</p>
 
-<p>Downtown Salon offers complete nail and hair services along with a full line of waxing and facial services.</p>
+<p>Studio 113 Hair Salon offers complete nail and hair services along with a full line of waxing and facial services.</p>
 
 <p>We pride ourselves in putting our clients first and going the extra mile to make our clients happy.  Our atmosphere is always friendly and welcoming and you'll always leave with a smile.</p>
 
-<p>Downtown Salon has been serving the friendly people of Downtown Oxford and the surrounding areas for almost 12 years.</p>
+<p>Studio 113 Hair Salon has been serving the friendly people of Downtown Oxford and the surrounding areas for almost 12 years.</p>
 
 <h2>Microdermabrasion Treatments</h2>
 <p>Microdermabrasion treatments use a minimally abrasive instrument to gently sand your skin, removing the thicker, uneven outer layer. This type of skin rejuvenation is used to treat light scarring, discoloration, sun damage, and stretch marks.<br>
