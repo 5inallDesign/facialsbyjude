@@ -109,6 +109,23 @@ header.header {
 	}
 	a {
 		display: block;
+		&.logo-placeholder {
+			font-family: 'Centabel Book', 'Times New Roman', serif;
+			color: $disco;
+			font-size: 40px;
+			text-align: center;
+			line-height: normal;
+			@media (min-width: $screen-sm-min) {
+				text-align: left;
+			}
+			@media (min-width: 1000px) {
+				font-size: 50px;
+			}
+			small {
+				font-size: 20px;
+				display: block;
+			}
+		}
 	}
 	img {
 		width: 100%;

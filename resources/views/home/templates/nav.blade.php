@@ -1,5 +1,9 @@
 <header class="header">
-    <a href="{{url('/')}}"><img srcset="{{url('/')}}/img/facials-by-jude-logo.svg 2x" src="{{url('/')}}/img/facials-by-jude-logo.png" alt="Facials by Jude" class="logo"></a>
+    <!--<a href="{{url('/')}}"><img srcset="{{url('/')}}/img/facials-by-jude-logo.svg 2x" src="{{url('/')}}/img/facials-by-jude-logo.png" alt="Facials by Jude" class="logo"></a>-->
+    <a href="{{url('/')}}" class="logo-placeholder">
+        Studio 113 Hair Salon
+        <small>Jude Cunningham<small>
+    </a>
 </header>
 <nav class="navbar" id="topNav">
 	<div class="container-fluid">
