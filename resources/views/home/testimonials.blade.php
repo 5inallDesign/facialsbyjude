@@ -4,6 +4,16 @@
 <h1>Testimonials</h1>
 
 <div class="testimonial">
+	<p>I have been going to Jude for her foot baths since I moved here around a year ago.  I was totally skeptic about the treatment helping any of the many foot aliments I am so unfortunate to have.
+	Well as it turned out I was overwhelmingly surprised! Judes foot baths have not only worked in reducing my foot pain to where I walk better, but the detoxing benefits have pulled out the toxins in other areas of my body allowing me to experience all over body health!<br>
+	Thank you Jude</p>
+	<h4>Diane Dyess<br>
+	Oxford, MI</h4>
+</div>
+
+<hr>
+
+<div class="testimonial">
 	<p>Jude's Eyebrow waxing is AMAZING! She takes her time, is detailed, and very precise. She constructs &amp; shapes each brow unique to the individual. I've made the mistake in going elsewhere for an eyebrow waxing and regret the moment I did. Jude uses state of art resources to make every visit a wonderful experience, even when it's just an eyebrow wax. I highly recommend her! Schedule you're next waxing with Jude, you'll be glad you did!</p>
 	<h4>Mary J</h4>
 </div>
