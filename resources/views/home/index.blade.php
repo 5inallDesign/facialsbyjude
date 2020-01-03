@@ -84,6 +84,19 @@
 	<p>With the newest technology great changes can happen for both women and men, at any age.  I'm not referring to facelifts, botox or other similar treatments. These therapies work well for some people. I use a more natural approach, with wonderful results.</p>
 	<p>Call Jude today to schedule a FREE Skin Consultation at 248-736-2343</p>
 
+	<hr>
+
+	<div class="testimonial">
+		<p>I have been going to Jude for her foot baths since I moved here around a year ago.  I was totally skeptic about the treatment helping any of the many foot aliments I am so unfortunate to have.
+		Well as it turned out I was overwhelmingly surprised! Judes foot baths have not only worked in reducing my foot pain to where I walk better, but the detoxing benefits have pulled out the toxins in other areas of my body allowing me to experience all over body health!<br>
+		Thank you Jude</p>
+		<h4>Diane Dyess<br>
+		Oxford, MI</h4>
+		<h4><a href="{{url('/testimonials')}}">Read More Testimonials <i class="fa fa-angle-right"></i></a></h4>
+	</div>
+
+	<hr>
+
   	<div class="row">
   		<div class="col-sm-3 col-sm-offset-1 margin-bottom-15">
   			<a href="http://www.facebook.com/pages/Facials-by-Jude/120751807964979" class="facebook-badge" target="_blank"><i class="fa fa-facebook"></i> Find Us on Facebook</a>
